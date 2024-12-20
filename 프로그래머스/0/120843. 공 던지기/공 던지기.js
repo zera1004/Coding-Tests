@@ -1,5 +1,4 @@
 function solution(numbers, k) {
-    let result = 0;
     let temp = 1;
     
     for(let i = 0; i < k-1; i++) {
