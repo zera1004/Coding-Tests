@@ -1,0 +1,2 @@
+def solution(arr, n):
+    return list(map(lambda x: x[1] + n if x[0] % 2 == 1 else x[1], enumerate(arr)))if len(arr) % 2 == 0 else list(map(lambda x: x[1] + n if x[0] % 2 == 0 else x[1], enumerate(arr)))
